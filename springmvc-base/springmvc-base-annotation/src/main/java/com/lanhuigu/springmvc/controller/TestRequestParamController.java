@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * RequestParam注解绑定请求参数
+ * @author yihonglei
  */
 @Controller
 @RequestMapping("/testRP")
