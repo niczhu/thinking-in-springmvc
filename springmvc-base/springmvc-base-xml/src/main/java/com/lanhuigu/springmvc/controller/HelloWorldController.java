@@ -8,13 +8,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * @author yihonglei
- * @ClassName: HelloWorldController
- * @Package: com.lanhuigu.springmvc.controller
- * @date 2018/6/4 10:11
- * @version 1.0.0
- */
 public class HelloWorldController implements Controller{
     private String helloWorld;
     private String viewPage;
@@ -23,8 +16,7 @@ public class HelloWorldController implements Controller{
      * 重写handleRequest()方法
      */
     @Override
-    public ModelAndView handleRequest(HttpServletRequest request,
-                                      HttpServletResponse response) throws Exception {
+    public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         Map model = new HashMap();
         model.put("helloWorld", getHelloWorld());
         return new ModelAndView(getViewPage(),model);
@@ -36,12 +28,14 @@ public class HelloWorldController implements Controller{
     public String getHelloWorld() {
         return helloWorld;
     }
+
     /**
      * 注入页面中的文字
      */
     public void setHelloWorld(String helloWorld) {
         this.helloWorld = helloWorld;
     }
+
     /**
      * 获取要返回的页面
      */

@@ -15,12 +15,12 @@
     </init-param>
     <load-on-startup>1</load-on-startup>
   </servlet>
+
   <!-- 拦截所有以do结尾的请求 -->
   <servlet-mapping>
     <servlet-name>dispatcherServlet</servlet-name>
     <url-pattern>*.do</url-pattern>
   </servlet-mapping>
-
 
   <display-name></display-name>
   <welcome-file-list>
