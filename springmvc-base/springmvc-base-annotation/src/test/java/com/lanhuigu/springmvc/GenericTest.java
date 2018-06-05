@@ -1,5 +1,8 @@
 package com.lanhuigu.springmvc;
 
+import org.springframework.aop.framework.ProxyConfig;
+import org.springframework.transaction.interceptor.TransactionInterceptor;
+import org.springframework.transaction.interceptor.TransactionProxyFactoryBean;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.XmlWebApplicationContext;
@@ -20,5 +23,8 @@ public class GenericTest {
         XmlWebApplicationContext;
         HandlerMapping;
         SimpleUrlHandlerMapping;*/
+        /*ProxyConfig;
+        TransactionProxyFactoryBean;
+        TransactionInterceptor;*/
     }
 }
