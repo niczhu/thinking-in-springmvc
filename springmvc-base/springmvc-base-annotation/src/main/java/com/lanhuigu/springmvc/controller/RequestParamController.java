@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  */
 @Controller
 @RequestMapping("/testRP")
-public class TestRequestParamController {
+public class RequestParamController {
     private static final String SUCCESS="success";
     /**
      * @RequestParam 映射请求参数

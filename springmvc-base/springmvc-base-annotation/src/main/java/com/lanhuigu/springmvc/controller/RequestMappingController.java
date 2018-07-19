@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  */
 @Controller
 @RequestMapping("/testRM")
-public class TestRequestMappingController {
+public class RequestMappingController {
     private static final String SUCCESS = "success";
     /*A.==============RequestMapping映射类处和方法处================*/
     /**

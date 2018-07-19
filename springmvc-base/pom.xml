@@ -2,16 +2,18 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
   <groupId>com.lanhuigu.springmvc</groupId>
   <artifactId>springmvc-base</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <modelVersion>4.0.0</modelVersion>
+  <packaging>pom</packaging>
+  <name>springmvc-base</name>
+
+  <!-- 子模块 -->
   <modules>
     <module>springmvc-base-xml</module>
     <module>springmvc-base-annotation</module>
   </modules>
-  <packaging>pom</packaging>
-  <name>springmvc-base</name>
 
   <!-- 版本配置 -->
   <properties>
@@ -23,6 +25,8 @@
     <aspectjrt.version>1.7.3</aspectjrt.version>
     <aspectjweaver.version>1.7.4</aspectjweaver.version>
     <cglib-nodep.version>2.1_3</cglib-nodep.version>
+    <javax.servlet.version>3.1.0</javax.servlet.version>
+    <standard.version>1.1.2</standard.version>
   </properties>
 
   <dependencies>
@@ -98,14 +102,14 @@
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
-      <version>3.1.0</version>
+      <version>${javax.servlet.version}</version>
       <scope>provided</scope>
     </dependency>
 
     <dependency>
       <groupId>taglibs</groupId>
       <artifactId>standard</artifactId>
-      <version>1.1.2</version>
+      <version>${standard.version}</version>
     </dependency>
   </dependencies>
   <!-- 打包 -->

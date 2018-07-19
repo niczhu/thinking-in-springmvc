@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @RequestMapping("/testCV")
-public class TestCookieValueController {
+public class CookieValueController {
     private static final String SUCCESS="success";
     /**
      * @RequestParam 映射请求参数
