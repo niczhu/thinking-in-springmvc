@@ -11,28 +11,30 @@ springmvc-base为springmvc基础研究；
 
 【Spring MVC 注解实战】 https://blog.csdn.net/yhl_jxy/article/details/51228202
 
-【RequestMapping】
+【RequestMapping】 https://blog.csdn.net/yhl_jxy/article/details/51234410
 
-【RequestParam】
+【RequestParam】 https://blog.csdn.net/yhl_jxy/article/details/51246328
 
-【CookieValue】
+【CookieValue】 https://blog.csdn.net/yhl_jxy/article/details/51246646
 
-【Spring MVC 处理模型数据】
+【Spring MVC 处理模型数据】 https://blog.csdn.net/yhl_jxy/article/details/51265077
 
-【mvc:view-controller直接转发页面】
+【mvc:view-controller直接转发页面】 https://blog.csdn.net/yhl_jxy/article/details/51296376
 
-【Spring MVC 自定义视图解析器】
+【Spring MVC 自定义视图解析器】 https://blog.csdn.net/yhl_jxy/article/details/51298417
 
-【Spring MVC重定向处理】
+【Spring MVC重定向处理】 https://blog.csdn.net/yhl_jxy/article/details/51298686
 
-【Spring MVC Restful风格及数据列表】
+【Spring MVC Restful风格及数据列表】 https://blog.csdn.net/yhl_jxy/article/details/51475470
 
-【SpringMVC表单标签的使用】
+【SpringMVC表单标签的使用】 https://blog.csdn.net/yhl_jxy/article/details/51476949
 
-【Spring MVC 静态资源的访问】
+【Spring MVC 静态资源的访问】 https://blog.csdn.net/yhl_jxy/article/details/51485678
 
-【PathVariable】
+【PathVariable】 https://blog.csdn.net/yhl_jxy/article/details/52090207
 
-【】
+【Rest风格，HiddenHttpMethodFilter的作用】 https://blog.csdn.net/yhl_jxy/article/details/52099551
+
+【 Spring MVC POJO绑定请求参数】 https://blog.csdn.net/yhl_jxy/article/details/52874350
 
 # Spring MVC源码分析
