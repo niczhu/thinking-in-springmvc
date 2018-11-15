@@ -6,10 +6,10 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>spring MVC POJO成功页面</title>
+    <title>spring MVC POJO成功</title>
 </head>
 
 <body>
-<h1>test pojo success</h1>
+<h1>test pojo success!</h1>
 </body>
 </html>

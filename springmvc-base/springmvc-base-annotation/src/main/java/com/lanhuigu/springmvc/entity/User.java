@@ -1,6 +1,7 @@
 package com.lanhuigu.springmvc.entity;
 
 /**
+ * 用户实体
  * @author yihonglei
  */
 public class User {

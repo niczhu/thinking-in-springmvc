@@ -6,7 +6,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>spring MVC POJO</title>
+    <title>spring MVC POJO TEST</title>
 </head>
 
 <body>
