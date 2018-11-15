@@ -9,13 +9,13 @@
   <packaging>pom</packaging>
   <name>springmvc-base</name>
 
-  <!-- 子模块 -->
+  <!-- 模块 -->
   <modules>
     <module>springmvc-base-xml</module>
     <module>springmvc-base-annotation</module>
   </modules>
 
-  <!-- 版本配置 -->
+  <!-- 版本 -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <spring.version>4.3.18.RELEASE</spring.version>
@@ -41,7 +41,7 @@
       <artifactId>spring-test</artifactId>
       <version>${spring.version}</version>
     </dependency>
-    <!-- spring 相关jar包 -->
+    <!-- Spring 相关jar包 -->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
@@ -77,7 +77,7 @@
       <artifactId>spring-tx</artifactId>
       <version>${spring.version}</version>
     </dependency>
-    <!-- aop -->
+    <!-- Spring AOP -->
     <dependency>
       <groupId>aopalliance</groupId>
       <artifactId>aopalliance</artifactId>
@@ -112,7 +112,7 @@
       <version>${standard.version}</version>
     </dependency>
   </dependencies>
-  <!-- 打包 -->
+  <!-- Maven打包插件 -->
   <build>
     <plugins>
       <plugin>

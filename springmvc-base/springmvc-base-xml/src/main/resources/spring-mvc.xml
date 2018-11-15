@@ -22,6 +22,7 @@
             </props>
         </property>
     </bean>
+
     <!-- 定义视图解析器，bean的id，property的name都是spring约定的 -->
     <bean id="viewResolver"
           class="org.springframework.web.servlet.view.InternalResourceViewResolver">
@@ -29,6 +30,7 @@
             <value>org.springframework.web.servlet.view.InternalResourceView</value>
         </property>
     </bean>
+
     <!-- 定义控制器 -->
     <bean id="helloWorldController"
           class="com.lanhuigu.springmvc.controller.HelloWorldController">

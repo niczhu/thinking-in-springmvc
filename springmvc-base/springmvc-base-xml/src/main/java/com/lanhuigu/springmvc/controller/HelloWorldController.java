@@ -19,7 +19,7 @@ public class HelloWorldController implements Controller{
     public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response) throws Exception {
         Map model = new HashMap();
         model.put("helloWorld", getHelloWorld());
-        return new ModelAndView(getViewPage(),model);
+        return new ModelAndView(getViewPage(), model);
     }
 
     /**
