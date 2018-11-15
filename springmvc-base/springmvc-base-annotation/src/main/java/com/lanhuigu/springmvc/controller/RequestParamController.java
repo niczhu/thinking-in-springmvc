@@ -21,7 +21,7 @@ public class RequestParamController {
     @RequestMapping(value="/testRequestParam")
     public String testRequestParam(
             @RequestParam("username") String username,
-            @RequestParam(value="age",required=false,defaultValue="0") int age) {
+            @RequestParam(value="age", required=false, defaultValue="0") int age) {
         System.out.println("testRequestParam,username="+username+",age="+age);
         return SUCCESS;
     }
