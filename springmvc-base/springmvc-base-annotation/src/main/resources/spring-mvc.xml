@@ -28,4 +28,26 @@
         <!-- 配置后缀 -->
         <property name="suffix" value=".jsp"/>
     </bean>
+
+    <!-- 自定义视图解析器:BeanNameViewResolver使用视图的名字解析视图 -->
+    <bean class="org.springframework.web.servlet.view.BeanNameViewResolver">
+        <!--
+           设置该自定义视图解析器BeanNameViewResolver与
+           InternalResourceViewResolver视图解析器的优先级值，
+           InternalResourceViewResolver的order默认值为Integer的最大值，
+           BeanNameViewResolver以下设置order为100，order值越小， 视图解析器的优先级越高。
+           该配置文件中自定视图解析器BeanNameViewResolver的优先级高于
+           InternalResourceViewResolver，每次先使用BeanNameViewResolver解析视图，
+           如果实现不了需求， 自动调用InternalResourceViewResolver解析视图。
+        -->
+        <property name="order">
+            <value>100</value>
+        </property>
+    </bean>
+
+    <!-- 配置直接转发的页面 -->
+    <mvc:view-controller path="/success" view-name="success"/>
+
+    <!-- 解决mvc:view-controller配置后RequestMapping映射地址报404的问题 -->
+    <mvc:annotation-driven></mvc:annotation-driven>
 </beans>
