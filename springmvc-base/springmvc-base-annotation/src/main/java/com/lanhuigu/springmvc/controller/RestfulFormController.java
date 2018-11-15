@@ -14,14 +14,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @RequestMapping("/testRestful")
 @Controller
-public class RestfulTwoController {
+public class RestfulFormController {
 
     /**
      * 查询列表数据
      * @param map
      * @return
      */
-    @RequestMapping("/list")
+    @RequestMapping("/listForm")
     public String queryList(Map<String, Object> map) {
         List<User> lists = new ArrayList<User>();
         User user = new User();
@@ -35,7 +35,7 @@ public class RestfulTwoController {
         lists.add(user);
 
         map.put("users", lists);
-        return "list";
+        return "listForm";
     }
     /**
      * 初始化编辑页面
@@ -61,7 +61,7 @@ public class RestfulTwoController {
                         "gender:"+user.getGender() + "  " +
                         "province:"+user.getAddress().getProvince() + "  " +
                         "city:"+user.getAddress().getCity());
-        return "redirect:/testRestful/list";
+        return "redirect:/testRestful/listForm";
     }
 
 }

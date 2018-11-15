@@ -8,16 +8,16 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
 <head>
-    <title>spring MVC实例初体验</title>
+    <title>spring MVC form表单</title>
 </head>
 
 <body>
 <table border="1" cellpadding="10" cellspacing="0">
     <tr>
-        <th>用户名</th>
-        <th>密码</th>
-        <th>省份</th>
-        <th>城市</th>
+        <th>username</th>
+        <th>password</th>
+        <th>province</th>
+        <th>city</th>
     </tr>
 
     <c:forEach items="${users }" var="user">
@@ -29,5 +29,6 @@
         </tr>
     </c:forEach>
 </table>
-</body>
+<div><a href="input">ADD USER</a></div>
+ </body>
 </html>
