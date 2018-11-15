@@ -16,7 +16,7 @@ import org.springframework.web.servlet.ModelAndView;
  * 模型数据处理
  * @author yihonglei
  */
-public class DealModelData {
+public class DealModelDataController {
     private static final String SUCCESS = "successModel";
     //1.================ModelAndView=============
     /**
