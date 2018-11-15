@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
 /**
+ * RequestMapping测试
  * @author yihonglei
  */
 @Controller
@@ -28,7 +29,7 @@ public class RequestMappingController {
      *   即为testRM/testRequestMapping
      */
     @RequestMapping("/testRequestMapping")
-    public String testRequestMappring(){
+    public String testRequestMapping(){
         System.out.println("testRequestMapping!");
         return SUCCESS;
     }
@@ -39,7 +40,7 @@ public class RequestMappingController {
      * RequestMapping的method属性指定接受的请求方式，如果发送请求的方式与指定接受请求的方式不符，报错;
      * 请求方式包含:GET,POST请求,默认使用GET请求
      */
-    @RequestMapping(value="/testMethod",method= RequestMethod.GET)
+    @RequestMapping(value="/testMethod", method= RequestMethod.GET)
     public String testMethod() {
         System.out.println("Test method");
         return SUCCESS;
