@@ -7,7 +7,6 @@
 <html>
 <head>
     <title>spring MVC POJO TEST</title>
-</head>
 
 <body>
 <form action="testpj/testPojo" method="post">
@@ -17,5 +16,6 @@
     city:<input name="address.city"/><br>
     <input type="submit" value="testPojoSubmit">
 </form>
+
 </body>
 </html>
