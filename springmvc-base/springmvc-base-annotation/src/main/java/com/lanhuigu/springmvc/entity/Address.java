@@ -1,4 +1,4 @@
-package com.lanhuigu.mvc.entity;
+package com.lanhuigu.springmvc.entity;
 
 /**
  * @author yihonglei

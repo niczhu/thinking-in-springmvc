@@ -1,12 +1,12 @@
-package com.lanhuigu.mvc.controller;
+package com.lanhuigu.springmvc.controller;
 
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
-import com.lanhuigu.mvc.entity.Address;
-import com.lanhuigu.mvc.entity.User;
+import com.lanhuigu.springmvc.entity.Address;
+import com.lanhuigu.springmvc.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 

@@ -1,4 +1,4 @@
-package com.lanhuigu.mvc.controller;
+package com.lanhuigu.springmvc.controller;
 import java.util.Date;
 import java.util.Map;
 

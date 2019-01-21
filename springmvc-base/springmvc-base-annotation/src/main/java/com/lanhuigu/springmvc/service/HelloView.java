@@ -1,4 +1,4 @@
-package com.lanhuigu.mvc.service;
+package com.lanhuigu.springmvc.service;
 
 import java.util.Map;
 
