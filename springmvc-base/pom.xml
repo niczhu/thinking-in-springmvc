@@ -13,7 +13,7 @@
   <modules>
     <module>springmvc-base-xml</module>
     <module>springmvc-base-annotation</module>
-      <module>springmvc-mymvc</module>
+    <module>lanhuigu-mvc</module>
   </modules>
 
   <!-- 版本 -->

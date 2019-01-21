@@ -8,8 +8,8 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>springmvc-mymvc</artifactId>
-    <name>springmvc-mymvc</name>
+    <artifactId>lanhuigu-mvc</artifactId>
+    <name>lanhuigu-mvc</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

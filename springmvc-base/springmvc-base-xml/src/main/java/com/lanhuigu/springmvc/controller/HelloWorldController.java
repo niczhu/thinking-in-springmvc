@@ -1,4 +1,4 @@
-package com.lanhuigu.springmvc.controller;
+package com.lanhuigu.mvc.controller;
 
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.Controller;

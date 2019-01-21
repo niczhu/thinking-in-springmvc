@@ -1,6 +1,6 @@
-package com.lanhuigu.springmvc.controller;
+package com.lanhuigu.mvc.controller;
 
-import com.lanhuigu.springmvc.entity.User;
+import com.lanhuigu.mvc.entity.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
