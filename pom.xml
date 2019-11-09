@@ -7,13 +7,12 @@
   <version>1.0-SNAPSHOT</version>
   <modelVersion>4.0.0</modelVersion>
   <packaging>pom</packaging>
-  <name>springmvc-base</name>
+  <name>SpringMVC-Study</name>
 
   <!-- 模块 -->
   <modules>
     <module>springmvc-base-xml</module>
     <module>springmvc-base-annotation</module>
-    <module>lanhuigu-mvc</module>
   </modules>
 
   <!-- 版本 -->
