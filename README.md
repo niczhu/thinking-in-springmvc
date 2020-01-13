@@ -1,5 +1,4 @@
 # 前言
-springmvc-base为springmvc基础学习；
 
 项目名含有xml字样的，均基于xml方式实现;
 
