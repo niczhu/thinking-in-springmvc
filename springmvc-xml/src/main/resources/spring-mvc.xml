@@ -33,7 +33,7 @@
 
     <!-- 定义控制器 -->
     <bean id="helloWorldController"
-          class="HelloWorldController">
+          class="com.jpeony.springmvc.controller.HelloWorldController">
         <property name="helloWorld">
             <value>HelloWorld</value>
         </property>

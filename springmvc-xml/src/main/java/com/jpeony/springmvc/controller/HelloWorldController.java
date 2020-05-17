@@ -8,6 +8,9 @@ import javax.servlet.http.HttpServletResponse;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * @author yihonglei
+ */
 public class HelloWorldController implements Controller {
     private String helloWorld;
     private String viewPage;
